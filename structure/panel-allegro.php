@@ -1,0 +1,1 @@
+<div class="panele text-center visible-lg visible-md"><h1>PANEL ALLEGRO</h1></div>
