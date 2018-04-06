@@ -1,7 +1,8 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top navbar-ck" id="nav">
 <!--      <div class="container">-->
         <a class="navbar-brand" href="index.php">
-            <img width=50 height=auto alt="CeglaneKlimaty.pl" src="../ceglaneklimaty/img/logo.jpg" class="logo">
+<!--            <img width=50 height=auto alt="CeglaneKlimaty.pl" src="../ceglaneklimaty/img/logo.jpg" class="logo">-->
+            <img width=50 height=auto alt="CeglaneKlimaty.pl" src="../img/logo.jpg" class="logo">
           </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
