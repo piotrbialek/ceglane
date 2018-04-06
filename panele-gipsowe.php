@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <?php include('structure/head.php'); ?>
 
@@ -125,8 +125,8 @@ drobnej gradacji. Na koniec należy je dokładnie zagruntować środkiem gruntuj
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
       <script src="JS/script-panele.js"></script>
       <script src="JS/lightbox.js"></script>
-      <script src="js/navActive.js"></script>
-      <script src="js/btn-scroll.js"></script>
+      <script src="JS/navActive.js"></script>
+      <script src="JS/btn-scroll.js"></script>
       
             <style>
 .vertical-menu {

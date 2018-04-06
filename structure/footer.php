@@ -5,13 +5,13 @@
                 
 
                    <div class="contact-item"> 
-                    <h4>     
+    -->
                       <p><i class="glyphicon glyphicon-phone"></i> 600 058 959 , 692 439 155</p>
                       <p><i class="glyphicon glyphicon-envelope"></i><a href="mailto:adres e-mail">biuro@ceglaneklimaty.pl</a></p>
                       <p><i class="glyphicon glyphicon-pencil"></i> ul. Młynek 129,
                           <br>
                             42-450, Łazy</p>
-                    </h4>
+
                   </div>
                   
               </div>
@@ -41,7 +41,7 @@
             
               <div class="col-lg-4 col-md-4">
                 <div class="contact-item text-right">
-                    <h4> 
+
                       <p>NIP: 6291737983</p>
 
                       <p>REGON: 369775318</p>
@@ -50,7 +50,6 @@
                           <br>
                           73 2490 0005 0000 4500 5196 0800
                         </p>
-                    </h4>
                   
               
                 </div>

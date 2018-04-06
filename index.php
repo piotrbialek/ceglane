@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
   <?php include('structure/head.php'); ?>
 
@@ -72,13 +72,15 @@
     </header>
 
     <div class="container">
-        <h1>
+        
             <div class="title-ck">
 <!--            <rect class="square"></rect>-->
-                <span class="red">C</span><span id="c"></span>
-                <span class="red">k</span><span id="k"></span>
+                <h1>
+                    <span class="red">C</span><span id="c"></span>
+                    <span class="red">k</span><span id="k"></span>
+                </h1>
             </div>
-        </h1>
+        
             
             <hr class="divider">
             <hr class="divider">

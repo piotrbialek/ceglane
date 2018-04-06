@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <?php include('structure/head.php'); ?>
 
@@ -174,8 +174,8 @@ Do praktycznych zalet kamienia dekoracyjnego należą prosty montaż, izolacja a
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
       <script src="JS/script-kamien.js"></script>
       <script src="JS/lightbox.js"></script>
-      <script src="js/navActive.js"></script>
-      <script src="js/btn-scroll.js"></script>
+      <script src="JS/navActive.js"></script>
+      <script src="JS/btn-scroll.js"></script>
   </body>
 
 </html>

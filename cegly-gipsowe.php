@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <?php include('structure/head.php'); ?>
 
@@ -7,11 +7,7 @@
 
 <?php include('structure/nav.php'); ?>
 
-    <header>
-    
-    </header>
-
-    <div class="container  m-left100">
+      <div class="container  m-left100">
         <div class="title-ck">
             <h1><span class="red">C</span><span id="cegly"></span></h1>
             <hr class="divider">
@@ -137,8 +133,8 @@ ani że niewłaściwe wykonanie lub źle dobrana barwa fugi zepsują efekt
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="JS/script-cegly.js"></script>
     <script src="JS/lightbox.js"></script>
-    <script src="js/navActive.js"></script>
-    <script src="js/btn-scroll.js"></script>
+    <script src="JS/navActive.js"></script>
+    <script src="JS/btn-scroll.js"></script>
 
   </body>
 

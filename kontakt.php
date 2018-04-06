@@ -111,14 +111,18 @@
                       
                   </div>
                 </form>
-                <div class="text-info"><?php
+                <div class="text-info">
+<?php
                 session_start();
+                    if (isset($_SESSION['email_info']))
+                    {
                 $email_info=$_SESSION['email_info'];
                     
                 
                 echo $email_info;
-//                unset($_SESSION['email_info']);
-                    ?></div>
+                unset($_SESSION['email_info']);
+                    }
+?></div>
                      
             </div>
       </div>
@@ -139,7 +143,7 @@
 <!--    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>-->
       <script src="JS/script-kontakt.js"></script>
       <script src="JS/scroll.js"></script>
-      <script src="js/navActive.js"></script>
+      <script src="JS/navActive.js"></script>
   </body>
 
 </html>

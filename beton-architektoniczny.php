@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <?php include('structure/head.php'); ?>
 
@@ -225,8 +225,8 @@ higroskopijnym, który w naturalnych odcieniach pełen jest ciągle zmieniający
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
       <script src="JS/script-beton.js"></script>
       <script src="JS/lightbox.js"></script>
-      <script src="js/navActive.js"></script>
-      <script src="js/btn-scroll.js"></script>
+      <script src="JS/navActive.js"></script>
+      <script src="JS/btn-scroll.js"></script>
   </body>
 
 </html>
