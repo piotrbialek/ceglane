@@ -10,8 +10,20 @@
     <header>
     
     </header>
+    <div id="mySidenav" class="sidenav visible-lg vertical-menu panel">
 
-    <div class="container m-left100">
+  Na skróty:<br>
+                <button class=" btn-danger btn-sm" onclick="scrollToDiv('algier')">Algier</button><br>
+                <button class="btn-danger btn-sm" onclick="scrollToDiv('ateny')">Ateny</button><br>
+                <button class="btn-danger btn-sm" onclick="scrollToDiv('casablanca')">Casablanca</button><br>
+                <button class="btn-danger btn-sm" onclick="scrollToDiv('makaresz')">Makaresz</button><br>
+                <button class="btn-danger btn-sm" onclick="scrollToDiv('marmur')">Marmur</button><br>
+                <button class="btn-danger btn-sm" onclick="scrollToDiv('pireus')">Pireus</button><br>
+                <button class="btn-danger btn-sm" onclick="scrollToDiv('trawertyn')">Trawertyn</button><br>
+                <button class="btn-danger btn-sm" onclick="scrollToDiv('tunis')">Tunis</button><br>
+      </div>
+        <a href="javascript:void(0);" class="slider-arrow show visible-lg">&times;</a>
+    <div class="container">
         <div class="title-ck">
             <h1><span class="red">B</span><span id="beton"></span></h1>
             <hr class="divider">
@@ -28,6 +40,7 @@ czasu. Płyty betonowe nadają się do stosowania wewnątrz i na zewnątrz budyn
 higroskopijnym, który w naturalnych odcieniach pełen jest ciągle zmieniających się,
                 nieszkodliwych wykwitów. Jest to piękne zjawisko, przez które tak lubimy ten materiał.</p>
             
+<!--
             <div class="sidenav visible-lg">
                 Na skróty:<br>
                 <button class=" btn-danger btn-sm" onclick="scrollToDiv('algier')">Algier</button><br>
@@ -39,11 +52,14 @@ higroskopijnym, który w naturalnych odcieniach pełen jest ciągle zmieniający
                 <button class="btn-danger btn-sm" onclick="scrollToDiv('trawertyn')">Trawertyn</button><br>
                 <button class="btn-danger btn-sm" onclick="scrollToDiv('tunis')">Tunis</button><br>
             </div>
+-->
             
             <div class="cegla" id="algier">
-                <h2 class="red">Algier</h2>
+                <h2 class="red">Wzór Algier</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/beton-architektoniczny/algier/1.jpg" data-lightbox="algier" data-title="Algier">
                  <img class="image gallery-image" src="img/beton-architektoniczny/algier/1.jpg">
                 </a>
@@ -61,9 +77,11 @@ higroskopijnym, który w naturalnych odcieniach pełen jest ciągle zmieniający
                 </a>
             </div>
             <div class="cegla" id="ateny">
-                <h2 class="red">Ateny</h2>
+                <h2 class="red">Wzór Ateny</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/beton-architektoniczny/ateny/1.jpg" data-lightbox="ateny" data-title="Ateny">
                  <img class="image gallery-image" src="img/beton-architektoniczny/ateny/1.jpg">
                 </a>
@@ -72,9 +90,11 @@ higroskopijnym, który w naturalnych odcieniach pełen jest ciągle zmieniający
                 </a>
             </div>
             <div class="cegla" id="casablanca">
-                <h2 class="red">Casablanca</h2>
+                <h2 class="red">Wzór Casablanca</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/beton-architektoniczny/casablanca/1.jpg" data-lightbox="casablanca" data-title="Casablanca">
                  <img class="image gallery-image" src="img/beton-architektoniczny/casablanca/1.jpg">
                 </a>
@@ -83,9 +103,11 @@ higroskopijnym, który w naturalnych odcieniach pełen jest ciągle zmieniający
                 </a>
             </div>
             <div class="cegla" id="makaresz">
-                <h2 class="red">Marakesz</h2>
+                <h2 class="red">Wzór Marakesz</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/beton-architektoniczny/marakesz/1.jpg" data-lightbox="marakesz" data-title="Marakesz">
                  <img class="image gallery-image" src="img/beton-architektoniczny/marakesz/1.jpg">
                 </a>
@@ -108,9 +130,11 @@ higroskopijnym, który w naturalnych odcieniach pełen jest ciągle zmieniający
 
             </div>
             <div class="cegla" id="marmur">
-                <h2 class="red">Marmur</h2>
+                <h2 class="red">Wzór Marmur</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/beton-architektoniczny/marmur/1.jpg" data-lightbox="marmur" data-title="Marmur">
                  <img class="image gallery-image" src="img/beton-architektoniczny/marmur/1.jpg">
                 </a>
@@ -136,9 +160,11 @@ higroskopijnym, który w naturalnych odcieniach pełen jest ciągle zmieniający
 
             </div>
             <div class="cegla" id="pireus">
-                <h2 class="red">Pireus</h2>
+                <h2 class="red">Wzór Pireus</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/beton-architektoniczny/pireus/1.jpg" data-lightbox="pireus" data-title="Pireus">
                  <img class="image gallery-image" src="img/beton-architektoniczny/pireus/1.jpg">
                 </a>
@@ -149,9 +175,11 @@ higroskopijnym, który w naturalnych odcieniach pełen jest ciągle zmieniający
 
             </div>
             <div class="cegla" id="trawertyn">
-                <h2 class="red">Trawertyn</h2>
+                <h2 class="red">Wzór Trawertyn</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/beton-architektoniczny/trawertyn/2.jpg" data-lightbox="trawertyn" data-title="Trawertyn">
                  <img class="image gallery-image" src="img/beton-architektoniczny/trawertyn/2.jpg">
                 </a>
@@ -195,9 +223,11 @@ higroskopijnym, który w naturalnych odcieniach pełen jest ciągle zmieniający
 
             </div>
             <div class="cegla" id="tunis">
-                <h2 class="red">Tunis</h2>
+                <h2 class="red">Wzór Tunis</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/beton-architektoniczny/tunis/1.jpg" data-lightbox="tunis" data-title="Tunis">
                  <img class="image gallery-image" src="img/beton-architektoniczny/tunis/1.jpg">
                 </a>
@@ -214,7 +244,7 @@ higroskopijnym, który w naturalnych odcieniach pełen jest ciągle zmieniający
       
     </div>
     <!-- /.container -->
-
+      
     <!-- Footer -->
     
 <?php include('structure/panel-allegro.php'); ?>
@@ -227,6 +257,7 @@ higroskopijnym, który w naturalnych odcieniach pełen jest ciągle zmieniający
       <script src="JS/lightbox.js"></script>
       <script src="JS/navActive.js"></script>
       <script src="JS/btn-scroll.js"></script>
+      <script src="JS/side-nav.js"></script>
   </body>
 
 </html>

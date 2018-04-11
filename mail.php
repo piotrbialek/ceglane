@@ -24,14 +24,34 @@ if($_POST['name'] && $_POST['email'] && $_POST['message'])
     mail($to, $subject, $message, $headers);
 
     //echo '<h1>Wiadomość wysłana :)</h1>';
-    $email_info="Wiadomość została wysłana.";
-    $_SESSION['email_info']="Wiadomość została wysłana.";
+//    $email_info="Wiadomość została wysłana.";
+    $email_info='
+    <div id="alert-promo" class="alert-promo text-center alert alert-success alert-dismissable">
+                <br>
+              <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+              <strong>Wiadomość została wysłana pomyślnie.</strong><br>Skontaktujemy się z Państwem.
+                <br>
+                <br>
+            </div>
+    
+    ';
+    $_SESSION['email_info']=$email_info;
     
 }
 else{
-    echo 'Problem';
-    $email_info="Wystąpił błąd, wiadomość nie została wysłana.";
-    $_SESSION['email_info']="Wystąpił błąd, wiadomość nie została wysłana.";
+//    echo 'Problem';
+//    $email_info="Wystąpił błąd, wiadomość nie została wysłana.";
+    $email_info='
+    <div id="alert-promo" class="alert-promo text-center alert alert-danger alert-dismissable">
+                <br>
+              <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+              <strong>Wystąpił błąd, wiadomość nie została wysłana.</strong><br>Spróbuj ponownie.
+                <br>
+                <br>
+            </div>
+    ';
+    
+    $_SESSION['email_info']=$email_info;
 }
     
     header('Location: kontakt.php');

@@ -10,8 +10,20 @@
     <header>
     
     </header>
-
-    <div class="container  m-left100">
+    <div id="mySidenav" class="sidenav visible-lg vertical-menu panel">
+        Na skróty:<br>
+                <button class="btn-danger btn-sm" onclick="scrollToDiv('grenada')">Grenada</button><br>
+                <button class="btn-danger btn-sm" onclick="scrollToDiv('jerozolima')">Jerozolima</button><br>
+                <button class="btn-danger btn-sm" onclick="scrollToDiv('korsyka')">Korsyka</button><br>
+                <button class="btn-danger btn-sm" onclick="scrollToDiv('kreta')">Kreta</button><br>
+                <button class="btn-danger btn-sm" onclick="scrollToDiv('pompeje')">Pompeje</button><br>
+                <button class="btn-danger btn-sm" onclick="scrollToDiv('sycylia')">Sycylia</button><br>
+                <button class="btn-danger btn-sm" onclick="scrollToDiv('trogir')">Trogir</button><br>
+                <button class="btn-danger btn-sm" onclick="scrollToDiv('werona')">Werona</button><br>
+      
+    </div>
+      <a href="javascript:void(0);" class="slider-arrow show visible-lg">&times;</a>
+    <div class="container">
         <div class="title-ck">
             <h1><span class="red">K</span><span id="kamien"></span></h1>
             <hr class="divider">
@@ -35,6 +47,7 @@ specyficzny i ekologiczny mikroklimat.
 Do praktycznych zalet kamienia dekoracyjnego należą prosty montaż, izolacja akustyczna, i
                 cieplna ognioodporność oraz pochłanianie nadmiaru wilgoci z otoczenia.</p><br>
             
+<!--
             <div class="sidenav visible-lg">
                 Na skróty:<br>
                 <button class="btn-danger btn-sm" onclick="scrollToDiv('grenada')">Grenada</button><br>
@@ -46,11 +59,14 @@ Do praktycznych zalet kamienia dekoracyjnego należą prosty montaż, izolacja a
                 <button class="btn-danger btn-sm" onclick="scrollToDiv('trogir')">Trogir</button><br>
                 <button class="btn-danger btn-sm" onclick="scrollToDiv('werona')">Werona</button><br>
             </div>
+-->
             
             <div class="cegla" id="grenada">
-                <h2 class="red">Grenada</h2>
+                <h2 class="red">Wzór Grenada</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/kamien-gipsowy/grenada/1.jpg" data-lightbox="grenada" data-title="Grenada">
                  <img class="image gallery-image" src="img/kamien-gipsowy/grenada/1.jpg">
                 </a>
@@ -59,9 +75,11 @@ Do praktycznych zalet kamienia dekoracyjnego należą prosty montaż, izolacja a
                 </a>
             </div>        
             <div class="cegla" id="jerozolima">  
-                <h2 class="red">Jerozolima</h2>
+                <h2 class="red">Wzór Jerozolima</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/kamien-gipsowy/jerozolima/1.jpg" data-lightbox="jerozolima" data-title="Jerozolima">
                  <img class="image gallery-image" src="img/kamien-gipsowy/jerozolima/1.jpg">
                 </a>
@@ -70,9 +88,11 @@ Do praktycznych zalet kamienia dekoracyjnego należą prosty montaż, izolacja a
                 </a>                
             </div>
             <div class="cegla" id="korsyka">  
-                <h2 class="red">Korsyka</h2>
+                <h2 class="red">Wzór Korsyka</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/kamien-gipsowy/korsyka/1.jpg" data-lightbox="korsyka" data-title="Korsyka">
                  <img class="image gallery-image" src="img/kamien-gipsowy/korsyka/1.jpg">
                 </a>
@@ -84,9 +104,11 @@ Do praktycznych zalet kamienia dekoracyjnego należą prosty montaż, izolacja a
                 </a>                
             </div>
             <div class="cegla" id="kreta">  
-                <h2 class="red">Kreta</h2>
+                <h2 class="red">Wzór Kreta</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/kamien-gipsowy/kreta/1.jpg" data-lightbox="kreta" data-title="Kreta">
                  <img class="image gallery-image" src="img/kamien-gipsowy/kreta/1.jpg">
                 </a>
@@ -95,9 +117,11 @@ Do praktycznych zalet kamienia dekoracyjnego należą prosty montaż, izolacja a
                 </a>                
             </div>
             <div class="cegla" id="pompeje">  
-                <h2 class="red">Pompeje</h2>
+                <h2 class="red">Wzór Pompeje</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/kamien-gipsowy/pompeje/1.jpg" data-lightbox="pompeje" data-title="Pompeje">
                  <img class="image gallery-image" src="img/kamien-gipsowy/pompeje/1.jpg">
                 </a>
@@ -106,9 +130,11 @@ Do praktycznych zalet kamienia dekoracyjnego należą prosty montaż, izolacja a
                 </a>                
             </div>
             <div class="cegla" id="sycylia">  
-                <h2 class="red">Sycylia</h2>
+                <h2 class="red">Wzór Sycylia</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/kamien-gipsowy/sycylia/2.jpg" data-lightbox="sycylia" data-title="Sycylia">
                  <img class="image gallery-image" src="img/kamien-gipsowy/sycylia/2.jpg">
                 </a>
@@ -126,9 +152,11 @@ Do praktycznych zalet kamienia dekoracyjnego należą prosty montaż, izolacja a
                 </a>                
             </div>
             <div class="cegla" id="trogir">  
-                <h2 class="red">Trogir</h2>
+                <h2 class="red">Wzór Trogir</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/kamien-gipsowy/trogir/1.jpg" data-lightbox="trogir" data-title="Trogir">
                  <img class="image gallery-image" src="img/kamien-gipsowy/trogir/1.jpg">
                 </a>
@@ -140,9 +168,11 @@ Do praktycznych zalet kamienia dekoracyjnego należą prosty montaż, izolacja a
                 </a>                
             </div>
             <div class="cegla" id="werona">  
-                <h2 class="red">Werona</h2>
+                <h2 class="red">Wzór Werona</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/kamien-gipsowy/werona/1.jpg" data-lightbox="werona" data-title="Werona">
                  <img class="image gallery-image" src="img/kamien-gipsowy/werona/1.jpg">
                 </a>
@@ -164,6 +194,7 @@ Do praktycznych zalet kamienia dekoracyjnego należą prosty montaż, izolacja a
     </div>
     <!-- /.container -->
 
+
     <!-- Footer -->
     
 <?php include('structure/panel-allegro.php'); ?>
@@ -176,6 +207,7 @@ Do praktycznych zalet kamienia dekoracyjnego należą prosty montaż, izolacja a
       <script src="JS/lightbox.js"></script>
       <script src="JS/navActive.js"></script>
       <script src="JS/btn-scroll.js"></script>
+      <script src="JS/side-nav.js"></script>
   </body>
 
 </html>

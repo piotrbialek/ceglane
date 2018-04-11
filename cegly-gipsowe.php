@@ -6,8 +6,15 @@
   <body>
 
 <?php include('structure/nav.php'); ?>
+      <div id="mySidenav" class="sidenav visible-lg vertical-menu panel">
 
-      <div class="container  m-left100">
+      Na skróty:<br>
+                <button class=" btn-danger btn-sm" onclick="scrollToDiv('gdansk')">Gdańsk</button><br>
+                <button class=" btn-danger btn-sm" onclick="scrollToDiv('malbork')">Malbork</button><br>
+                <button class=" btn-danger btn-sm" onclick="scrollToDiv('wawel')">Wawel</button><br>
+      </div>
+        <a href="javascript:void(0);" class="slider-arrow show visible-lg">&times;</a>
+      <div class="container">
         <div class="title-ck">
             <h1><span class="red">C</span><span id="cegly"></span></h1>
             <hr class="divider">
@@ -34,7 +41,8 @@ uniknąć żmudnego procesu wypełniania szczelin, dokonywania pomiarów,
 wstawiania krzyżyków. Nie musimy się też martwić, że pobrudzimy płytki zaprawą
 ani że niewłaściwe wykonanie lub źle dobrana barwa fugi zepsują efekt
     estetyczny.</p>
-            <ul>Dodatkowe zalety:
+            Dodatkowe zalety:
+            <ul>
             <li>zwiększona ognioodporność,</li>
             <li>izolują zarówno akustycznie, jak i cieplnie,</li>
             <li>pochłaniają nadmiar wilgoci z otoczenia z uwagi na porowatą strukturę.</li>
@@ -43,17 +51,25 @@ ani że niewłaściwe wykonanie lub źle dobrana barwa fugi zepsują efekt
             
 
             
+<!--
             <div class="sidenav visible-lg">
                 Na skróty:<br>
                 <button class=" btn-danger btn-sm" onclick="scrollToDiv('gdansk')">Gdańsk</button><br>
                 <button class=" btn-danger btn-sm" onclick="scrollToDiv('malbork')">Malbork</button><br>
                 <button class=" btn-danger btn-sm" onclick="scrollToDiv('wawel')">Wawel</button><br>
             </div>
+-->
+            
+            <div class="cena">
+                <h5>Cena:<br>w kolorze gipsu / <span class="red">inny kolor</span><br>19.90zł / <span class="red">39.90zł</span></h5>
+            </div>
             
             <div class="cegla" id="gdansk">
-                <h2 class="red">Gdańsk</h2>
+                <h2 class="red">Wzór Gdańsk</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/cegly-gipsowe/gdansk/1.jpg" data-lightbox="gdansk" data-title="Gdańsk">
                  <img class="image gallery-image" src="img/cegly-gipsowe/gdansk/1.jpg">
                 </a>
@@ -66,9 +82,11 @@ ani że niewłaściwe wykonanie lub źle dobrana barwa fugi zepsują efekt
             </div>
             
             <div class="cegla" id="malbork">
-                <h2 class="red">Malbork</h2>
+                <h2 class="red">Wzór Malbork</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/cegly-gipsowe/malbork/1.jpg" data-lightbox="malbork" data-title="Malbork">
                  <img class="image gallery-image" src="img/cegly-gipsowe/malbork/1.jpg">
                 </a>
@@ -87,9 +105,11 @@ ani że niewłaściwe wykonanie lub źle dobrana barwa fugi zepsują efekt
             </div>
         
             <div class="cegla" id="wawel">  
-                <h2 class="red">Wawel</h2>
+                <h2 class="red">Wzór Wawel</h2>
+<!--
                 <h4>cena</h4>
                 <p>krótki opis</p>
+-->
                 <a href="img/cegly-gipsowe/wawel/1.jpg" data-lightbox="wawel" data-title="Wawel">
                  <img class="image gallery-image" src="img/cegly-gipsowe/wawel/1.jpg">
                 </a>
@@ -120,6 +140,7 @@ ani że niewłaściwe wykonanie lub źle dobrana barwa fugi zepsują efekt
         
       
     </div>
+      
     <!-- /.container -->
 
     <!-- Footer -->
@@ -135,6 +156,7 @@ ani że niewłaściwe wykonanie lub źle dobrana barwa fugi zepsują efekt
     <script src="JS/lightbox.js"></script>
     <script src="JS/navActive.js"></script>
     <script src="JS/btn-scroll.js"></script>
+    <script src="JS/side-nav.js"></script>
 
   </body>
 

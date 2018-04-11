@@ -7,7 +7,6 @@
 
  <?php include('structure/nav.php'); ?>   
 
-    <header>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           
 <!--          kafelki na dole                                     -->
@@ -24,7 +23,9 @@
                   <a href="cegly-gipsowe.php">
                     <div class="carousel-caption shadow">
                       <h3>Cegły gipsowe</h3>
-                      <p class="d-none d-md-block">ewentualnie krótki opis cegieł</p>
+                      <p class="d-none d-md-block">
+                        <strong>Cegły gipsowe</strong> pozwalają na szybkie „wznoszenie murów” bez konieczności wyburzania starych ścian.
+                        </p>
                     </div>
                   </a>
               </div>
@@ -33,7 +34,9 @@
                   <a href="kamien-gipsowy.php">
                     <div class="carousel-caption shadow">
                       <h3>Kamień gipsowy</h3>
-                      <p class="d-none d-md-block">ewentualnie krótki opis kamienia gipsowego</p>
+                      <p class="d-none d-md-block">
+                        <strong>Kamień dekoracyjny</strong> produkujemy z wielką dbałością o szczegóły, przez co oddaje piękno naturalnego kamienia.
+                        </p>
                     </div>
                   </a>
               </div>
@@ -42,7 +45,9 @@
                   <a href="panele-gipsowe.php">
                     <div class="carousel-caption shadow">
                       <h3>Panele gipsowe</h3>
-                      <p class="d-none d-md-block">ewentualnie krótki opis paneli</p>
+                      <p class="d-none d-md-block">
+                          <strong>Gipsowe panele ścienne 3D</strong> to coraz popularniejsze rozwiązanie dekoracyjne na ściany.
+                        </p>
                     </div>
                   </a>
               </div>
@@ -52,7 +57,9 @@
                   <a href="beton-architektoniczny.php">
                     <div class="carousel-caption shadow">
                       <h3>Beton architektoniczny</h3>
-                      <p class="d-none d-md-block">ewentualnie krótki opis betonu architektonicznego</p>
+                      <p class="d-none d-md-block">
+                        <strong>Płyty betonowe</strong> produkowane przez naszą firmę wykonane są według najnowszych technologii.
+                        </p>
                     </div>
                   </a>
               </div>
@@ -87,11 +94,7 @@
             
         
         <div class="content">
-<!--
-            <div class="col-lg-6">
-                <img class="image-home" src="img/FOTO/kleines-verblender-stegu-gips-verblender-innenbereich-strukturiert-handgefertigt-2.jpg">
-            </div>
--->
+
 <!--            <div class="col-lg-6">-->
             <h2><span class="red">O</span> firmie</h2>
 <!--            <hr class="divider">-->
@@ -111,7 +114,7 @@ aranżacją wnętrz i remontami. Oferujemy atrakcyjne warunki współpracy. Aby 
             szczegóły prosimy o <a href="kontakt.php#form">kontakt</a>.</p>
 <!--            </div>-->
 <!--            <div>-->
-            <img class="image-home img-center" src="img/FOTO/kleines-verblender-stegu-gips-verblender-innenbereich-strukturiert-handgefertigt-2.jpg">
+            <img class="image-home img-center" src="img/FOTO/kleines-verblender-stegu-gips-verblender-innenbereich-strukturiert-handgefertigt-2.jpg" alt="zdjęcie wnętrza">
 <!--            </div>-->
 
 
@@ -130,7 +133,7 @@ aranżacją wnętrz i remontami. Oferujemy atrakcyjne warunki współpracy. Aby 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
       <script src="JS/script.js"></script>
-      <script src="js/navActive.js"></script>
+      <script src="JS/navActive.js"></script>
   </body>
 
 </html>

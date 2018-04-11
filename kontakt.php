@@ -1,3 +1,6 @@
+<?php
+session_start();?>
+
 <!DOCTYPE html>
 <html lang="pl">
 
@@ -6,10 +9,16 @@
   <body>
 
 <?php include('structure/nav.php');?>
+<?php
+                    if (isset($_SESSION['email_info']))
+                    {
+                $email_info=$_SESSION['email_info'];
+                    
+                
+                echo $email_info;
 
-    <header>
-    
-    </header>
+                    }
+?>
 
     <div class="container">
         <div class="title-ck">
@@ -30,7 +39,7 @@
             <div class="contact-item"><i class="glyphicon glyphicon-phone"></i> 600 058 959</div>
             <div class="contact-item"><i class="glyphicon glyphicon-phone"></i> 692 439 155</div>
             <div class="contact-item">
-              <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:biuro@ceglaneklimaty.pl">biuro@ceglaneklimaty.pl</a>
+              <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="biuro@ceglaneklimaty.pl">biuro@ceglaneklimaty.pl</a>
             </div>
               <i class="glyphicon glyphicon-pencil"></i><i class="icon-large icon-search"></i>
               <h4>Adres:</h4>
@@ -112,8 +121,10 @@
                   </div>
                 </form>
                 <div class="text-info">
+                    
+                    
 <?php
-                session_start();
+//                    session_start();
                     if (isset($_SESSION['email_info']))
                     {
                 $email_info=$_SESSION['email_info'];
@@ -139,11 +150,12 @@
 
 
     <!-- Bootstrap core JavaScript -->
-<!--    <script src="vendor/jquery/jquery.min.js"></script>-->
-<!--    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
       <script src="JS/script-kontakt.js"></script>
       <script src="JS/scroll.js"></script>
       <script src="JS/navActive.js"></script>
+      <script src="JS/btn-scroll.js"></script>
   </body>
 
 </html>

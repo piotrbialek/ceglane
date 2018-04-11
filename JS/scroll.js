@@ -7,7 +7,7 @@ $(document).ready(function() {
         $("html,body").animate({
             scrollTop: $("#scroll-"+page_id).offset().top-70
 //            alert('scroll');
-        }, 1000);
+        }, 2000);
     }
     
     

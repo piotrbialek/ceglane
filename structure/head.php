@@ -16,11 +16,11 @@ marki Knauf oraz barwników niemieckiej firmy Bayffevox."/>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
       
-         
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/sideNav.css" rel="stylesheet">
+    
       
       
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
