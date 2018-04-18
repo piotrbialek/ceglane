@@ -157,6 +157,7 @@ ani że niewłaściwe wykonanie lub źle dobrana barwa fugi zepsują efekt
     <script src="JS/navActive.js"></script>
     <script src="JS/btn-scroll.js"></script>
     <script src="JS/side-nav.js"></script>
+    <script src="JS/scroll-fade-in.js"></script> 
 
   </body>
 

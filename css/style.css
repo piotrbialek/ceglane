@@ -141,6 +141,34 @@ body {
     margin: 30px 0px 30px 0px;
 }
 
+.advert
+{
+    margin-top:15px;
+    max-width: 200px;
+    max-height: 230px;
+    padding: 5px;
+    position:fixed;
+    right:0px;
+    top:45px;
+    z-index: 5;
+    
+}
+ .jumbotron2 {
+   background: rgb(200, 54, 54) !important; /* This is for ie8 and below */
+   background: rgba(200, 54, 54, 0.5) !important; 
+     
+}
+
+.adv-desc
+{
+    margin-top: 5px;
+}
+
+.hideme
+{
+    opacity:0;
+}
+
 /*
 .footer-ck
 {

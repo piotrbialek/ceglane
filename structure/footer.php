@@ -1,4 +1,4 @@
-<footer class="bg-faded ftr navbar-bottom">
+<footer class="bg-faded ftr navbar-bottom hideme">
       <div class="footer">
           <div class=" container">
           <div class="row hidden-xs hidden-sm">

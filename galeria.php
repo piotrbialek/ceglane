@@ -124,6 +124,7 @@
       <script src="JS/script-galeria.js"></script>
       <script src="JS/lightbox.js"></script>
       <script src="JS/navActive.js"></script>
+      <script src="JS/scroll-fade-in.js"></script>
   </body>
 
 </html>

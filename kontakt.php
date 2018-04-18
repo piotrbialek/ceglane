@@ -81,7 +81,7 @@ session_start();?>
             </div>
       </div>
 
-      <div class="content" id="scroll-form">
+      <div class="content hideme" id="scroll-form">
         <h2>Formularz kontaktowy
         </h2>
         <hr class="divider">
@@ -156,6 +156,7 @@ session_start();?>
       <script src="JS/scroll.js"></script>
       <script src="JS/navActive.js"></script>
       <script src="JS/btn-scroll.js"></script>
+      <script src="JS/scroll-fade-in.js"></script>
   </body>
 
 </html>

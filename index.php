@@ -7,7 +7,7 @@
 
  <?php include('structure/nav.php'); ?>   
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide hidden-xs" data-ride="carousel">
           
 <!--          kafelki na dole                                     -->
         <ol class="carousel-indicators">
@@ -76,9 +76,61 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </header>
+<!--    </header>-->
 
     <div class="container">
+<!--
+        <div class="panel-group"><div class="panel panel-danger">
+      <div class="panel-heading">Panel with panel-danger class</div>
+      <div class="panel-body">content</div></div>
+    </div>
+-->
+        <div id="alert-promo" class="hideme alert-promo text-center alert alert-secondary alert-dismissable advert hidden-xs jumbotron2">
+              <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+              <strong><a href="www.stylowegzymsy.pl">StyloweGzymsy.pl</a></strong> 
+            <div class="adv-desc">Jesteśmy producentem sztukaterii elewacyjnej </div>
+        <a href="www.stylowegzymsy.pl"><div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="http://www.stylowegzymsy.pl/img/gallery/zabkowice/1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="http://www.stylowegzymsy.pl/img/gallery/bledow/3.JPG" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="http://www.stylowegzymsy.pl/img/gallery/przeczyce/6.JPG" alt="Third slide">
+    </div>
+  </div>
+            
+            </div></a>
+            
+        </div>
+        
+        
+<!--
+        <div class="card bg-dark text-white">
+  <img class="card-img" src="img/FOTO/$_72.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <h5 class="card-title">www.StyloweGzymsy.pl</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
+  </div>
+</div>
+-->
+<!--
+        <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="img/FOTO/$_72.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">StyloweGzymsy</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="www.stylowegzymsy.pl" class="btn btn-primary">Sprawdź!</a>
+  </div>
+</div>
+-->
+        
+        
+        
+        
         
             <div class="title-ck">
 <!--            <rect class="square"></rect>-->
@@ -114,7 +166,7 @@ aranżacją wnętrz i remontami. Oferujemy atrakcyjne warunki współpracy. Aby 
             szczegóły prosimy o <a href="kontakt.php#form">kontakt</a>.</p>
 <!--            </div>-->
 <!--            <div>-->
-            <img class="image-home img-center" src="img/FOTO/kleines-verblender-stegu-gips-verblender-innenbereich-strukturiert-handgefertigt-2.jpg" alt="zdjęcie wnętrza">
+            <img class="hideme image-home img-center" src="img/FOTO/kleines-verblender-stegu-gips-verblender-innenbereich-strukturiert-handgefertigt-2.jpg" alt="zdjęcie wnętrza">
 <!--            </div>-->
 
 
@@ -134,6 +186,8 @@ aranżacją wnętrz i remontami. Oferujemy atrakcyjne warunki współpracy. Aby 
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
       <script src="JS/script.js"></script>
       <script src="JS/navActive.js"></script>
+      <script src="JS/scroll-fade-in.js"></script>
+      
   </body>
 
 </html>

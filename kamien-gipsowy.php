@@ -208,6 +208,7 @@ Do praktycznych zalet kamienia dekoracyjnego należą prosty montaż, izolacja a
       <script src="JS/navActive.js"></script>
       <script src="JS/btn-scroll.js"></script>
       <script src="JS/side-nav.js"></script>
+      <script src="JS/scroll-fade-in.js"></script>
   </body>
 
 </html>
